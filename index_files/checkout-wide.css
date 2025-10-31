@@ -1,0 +1,1432 @@
+.arrow-bg {
+  background-image: url('/App_Themes/BestWestern/Images/down-chevron.png');
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+.k-invalid-msg {
+  display: none !important;
+}
+.checkout-wide .row {
+  max-width: 1346px;
+}
+.checkout-wide .checkout-section p {
+  margin-bottom: 20px;
+}
+.checkout-wide input[type="radio"] + label:before {
+  margin-right: 16px;
+}
+.bw_overlay input.sfTxt {
+  padding: 12px;
+}
+.ie8 .checkout-wide .row {
+  width: 1346px;
+}
+.prepping-room-loader {
+  display: table;
+  width: 100%;
+}
+.prepping-room-loader > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+.prepping-room {
+  position: fixed;
+  z-index: 110;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #003c7f;
+  color: #fff;
+}
+.ie8 .prepping-room,
+.ie9 .prepping-room,
+.sfPageEditorWrp .prepping-room {
+  display: none;
+}
+.prepping-room > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 350px;
+  height: 60px;
+  margin: auto;
+  text-align: center;
+  padding-top: 80px;
+}
+.prepping-room__loader {
+  height: 60px;
+  width: 80px;
+  background: url('/svg/bw-badge.svg') no-repeat center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-animation: rotateplane 3s infinite ease-in-out;
+  -moz-animation: rotateplane 3s infinite ease-in-out;
+  -o-animation: rotateplane 3s infinite ease-in-out;
+  animation: rotateplane 3s infinite ease-in-out;
+}
+@-webkit-keyframes rotateplane {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  25% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+  }
+  75% {
+    -webkit-transform: perspective(120px) rotateX(-360deg) rotateY(-180deg);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-360deg) rotateY(-360deg);
+  }
+}
+@keyframes rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  25% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+  }
+  75% {
+    transform: perspective(120px) rotateX(-360deg) rotateY(-180deg);
+  }
+  100% {
+    transform: perspective(120px) rotateX(-360deg) rotateY(-360deg);
+  }
+}
+/*.prepping-room__loader {    
+    .animation(rotate 1.75s infinite linear);
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.85;
+
+    &:after, &:before {
+        content: '';
+        width: 60%;
+        height: 60%;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        background-color: #fff;
+        border-radius: 100%;
+        .animation(bounce 1.75s infinite ease-in-out);
+    }
+
+    &:after {
+        top: auto;
+        bottom: 0;
+        .animation-delay(-1.0s);
+    }
+}*/
+.prepping-room__text {
+  font-size: 26px;
+}
+.floated-inner {
+  float: left;
+  width: 100%;
+}
+.local_rate_txt {
+  color: #595d5b;
+  line-height: 1.1;
+  font-size: 10px;
+  display: block;
+  float: left;
+  font-style: italic;
+  margin-top: 19px;
+}
+.best-western-sure-hotel .local_rate_txt,
+.best-western-sure-hotel-plus .local_rate_txt {
+  margin-top: 39px;
+}
+.best-western-sure-hotel-collection .local_rate_txt {
+  margin-top: 29px;
+}
+.local_rate_txt span {
+  display: block;
+}
+.header_contact_tel {
+  display: block;
+  font-size: 1.6em;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 10px;
+  float: left;
+  margin-top: 12px;
+}
+.best-western-sure-hotel .header_contact_tel,
+.best-western-sure-hotel-plus .header_contact_tel {
+  margin-top: 32px;
+}
+.best-western-sure-hotel-collection .header_contact_tel {
+  margin-top: 22px;
+}
+.header_contact_tel:before {
+  content: '';
+  display: inline-block;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAARCAYAAAAG/yacAAAAyUlEQVQ4T43QzQpBQRjG8YMol2BlcSJ2FmejLGzkGpSTlXITrsDC5YidEmXjBiyVUsJCUb6et96pJ82cM4tfzUf/mWmCXtwPVBcWUKA1KzMYwge+MPaJsnDRQDygnhaVKDBWepgzysPzL7pCLSkScwpuUHYFHA0oOiYFHMk3Hyhs+kRiRNHMN8rBjsLYJxIteGt0h46ut3XPGokp3faCrR60h6Irkg1+Jpu4IhHCyRLJzZErEhGcLeEmKRJVWFOwhDAtMirQgIzMf1ULL7Y6pKnsAAAAAElFTkSuQmCC') no-repeat 0 0;
+  width: 14px;
+  height: 18px;
+  position: relative;
+  top: 2px;
+  margin-right: 3px;
+}
+.checkout {
+  background-color: #efefef;
+  padding: 20px 0;
+}
+.checkout-left {
+  float: left;
+  width: 60%;
+}
+.checkout-right {
+  float: left;
+  width: 40%;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.checkout-logos {
+  width: 150px;
+  float: left;
+}
+.checkout-logos img {
+  display: block;
+  margin-bottom: 15px;
+}
+.checkout-right-column {
+  margin-left: 170px;
+  min-height: 100%;
+  position: relative;
+}
+.checkout-section {
+  background-color: #fff;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.checkout-signin-prompt {
+  padding-left: 150px;
+  background-image: url('/App_Themes/BestWestern/Images/RewardsCard.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  min-height: 80px;
+}
+.sign-in-prompt-header {
+  font-size: 1.2em;
+}
+.checkout-signin-prompt--left {
+  float: left;
+  width: 250px;
+}
+.text-small {
+  font-size: 11px;
+  color: #666;
+}
+.checkout-signin-prompt--right {
+  margin-left: 250px;
+}
+.checkout-room {
+  background-color: #fff;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.checkout-room--title {
+  margin-bottom: 15px;
+}
+.checkout-room--room-no {
+  font-size: 18px;
+  color: #003c7f;
+  text-transform: uppercase;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.checkout-room--room-type {
+  font-size: 16px;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #666;
+}
+.checkout-room--room-type:before {
+  content: '-';
+  margin: 0 5px;
+}
+.checkout-section-title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #003c7f;
+  text-transform: uppercase;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.checkout--fields {
+  max-width: 610px;
+}
+.checkout--fields .sfFormBox {
+  margin-bottom: 20px;
+}
+.checkout--fields .sfTxtLbl {
+  margin-bottom: 6px;
+  color: #666;
+  font-size: 14px;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.checkout--fields input.sfTxt {
+  padding: 15px;
+  border-color: #bbb;
+}
+.checkout--fields .sfDropdownList select,
+.checkout--fields .customSelect {
+  padding: 14px 15px;
+  border-color: #bbb;
+  height: 50px !important;
+}
+.checkout--fields .date_cols {
+  max-width: none;
+}
+.checkout--fields .date_cols > div {
+  float: left;
+  width: 49%;
+  margin-left: 2%;
+  max-width: 150px;
+}
+.secure-title {
+  background: #579242 url(/svg/lock-white.svg) 10px 8px no-repeat;
+  background-size: 30px;
+  padding: 16px 15px 14px 50px;
+  color: #fff!important;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.checkout-join-rewards-prompt {
+  padding-right: 149px;
+  min-height: 80px;
+}
+.hotel-booking:not(.no-rewards) .checkout-join-rewards-prompt {
+  background-repeat: no-repeat;
+  background-image: url('/App_Themes/BestWestern/Images/RewardsCard.png');
+  background-position: right 0;
+}
+.button.make-booking-btn {
+  font-size: 16px;
+  padding: 15px 70px;
+  margin-right: 30px;
+}
+.instant-confirmation-text {
+  font-size: 16px;
+  font-family: "Gotham Book", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #003c7f;
+}
+.sticky-checkout-column #checkout-dockable {
+  position: fixed;
+  top: 0;
+}
+.checkout-info {
+  color: #666;
+}
+.checkout-info--hotel-img {
+  margin-bottom: 10px;
+  position: relative;
+}
+.checkout-info--hotel-img:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  will-change: transform;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+25,000000+100&0+25,0.75+100 */
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.75) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.75) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.75) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#bf000000', GradientType=0);
+  /* IE6-9 */
+}
+.checkout-info--hotel-img img {
+  display: block;
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  min-height: 85px;
+}
+.checkout-info--hotel-name {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 15px;
+  line-height: 1.3;
+}
+.checkout-info--hotel-address {
+  font-size: 14px;
+}
+.button.checkout-info--change-dates-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+}
+.checkout-info-separator {
+  height: 2px;
+  background: #e6e6e6;
+  margin: 20px 0;
+}
+.checkout-room-summaries {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 2px solid #e6e6e6;
+  padding-bottom: 20px;
+}
+.checkout-room-summaries > li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.checkout-room-summary--toggle {
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 10px;
+  display: block;
+  background: #f4f4f4 url('/svg/plus-primary.svg') no-repeat right 7px;
+  background-position: right 10px top 7px;
+  /*for browsers that support position offset*/
+  background-size: 18px;
+  padding: 5px 36px 5px 10px;
+}
+.state--expanded .checkout-room-summary--toggle {
+  background-image: url('/svg/minus-primary.svg');
+}
+.checkout-room-summary--toggle .checkout-room--room-no,
+.checkout-room-summary--toggle .checkout-room--room-type {
+  font-size: 14px;
+}
+.checkout-room-summary--toggle:hover {
+  text-decoration: none;
+  background-color: #ececec;
+}
+.checkout-room-summary--data {
+  display: none;
+}
+.state--expanded .checkout-room-summary--data {
+  display: block;
+}
+.checkout-data {
+  width: 100%;
+}
+.checkout-data td {
+  padding: 5px 0;
+  font-size: 12px;
+}
+.checkout-data-lbl {
+  text-transform: uppercase;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+}
+.checkout-data-lbl-lg {
+  text-transform: uppercase;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+.tablet-summary {
+  display: none;
+}
+.rewards-select-boxes > div {
+  width: 32%;
+  position: relative;
+  margin-left: 2%;
+  float: left;
+}
+.rewards-select-boxes > div:first-child {
+  margin-left: 0;
+}
+.rewards-select-boxes label {
+  text-align: center;
+  padding: 50px 10px 10px 10px;
+  font-size: 12px;
+  color: #5d5d5d;
+  cursor: pointer;
+  height: 140px;
+  background: #e2e2e2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.rewards-select-boxes label:hover {
+  background: #0573b6;
+  color: #fff;
+}
+.rewards-select-boxes input[type="checkbox"] + label:before {
+  background: url('/App_Themes/BestWestern/Images/checkbox-sprite-whitebg.png') no-repeat;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 17px;
+}
+.rewards-select-boxes input[type="checkbox"]:checked + label {
+  background: #0573b6;
+  color: #fff;
+}
+.ss_header {
+  background-color: #f5f5f5;
+  padding: 15px;
+  position: relative;
+  cursor: pointer;
+  display: block;
+}
+.ss_header:hover {
+  text-decoration: none;
+}
+.ss_header:after {
+  content: '';
+  width: 23px;
+  height: 23px;
+  display: block;
+  background-image: url('/App_Themes/BestWestern/Images/accordion-states.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  right: 30px;
+}
+.ss_header.active:after {
+  background-position: 0 100%;
+}
+.ss_header_title {
+  color: #003c7f;
+  display: block;
+  font-size: 1.6em;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.ss_header_subtitle {
+  font-size: 0.85em;
+  line-height: 1.4;
+  display: inline-block;
+  color: #595d5b;
+}
+.ss_body {
+  padding: 0 15px;
+}
+.ss_list {
+  padding: 0;
+  margin: 20px 0 0 0;
+  list-style-type: none;
+}
+.ss_list_item {
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #ececec;
+  position: relative;
+}
+.ss_list_item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+.ss_list_item:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+.ss_list_item [data-ss-item-choice] {
+  /*display: none;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+}
+.ss_list_item input[type="checkbox"]:checked + label:before,
+.ss_list_item input[type="checkbox"].checked + label:before {
+  background-position: right 0;
+}
+.ss_list_item input[type="checkbox"] + label {
+  font-size: 0.85em;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.ss_list_item input[type="checkbox"] + label:before {
+  background: url('/App_Themes/BestWestern/Images/checkbox-sprite.png') no-repeat left 0;
+  margin-right: 10px;
+}
+.ss_list_item textarea {
+  font-family: "Gotham Book", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  min-height: 150px;
+}
+.ss_list_item .customSelect {
+  padding: 6px 8px;
+  font-size: 0.85em;
+}
+.ss_list_item .customSelect .customSelectInner:after {
+  font-size: 19px;
+}
+.ss_list_item select {
+  width: 100%;
+}
+.ss_right {
+  float: right;
+}
+.ss_select_time {
+  float: left;
+  width: 45%;
+  margin-left: 10%;
+}
+.ss_select_time:first-child {
+  margin-left: 0;
+}
+.low_rate_img {
+  display: block;
+  float: left;
+  max-width: 50px;
+}
+.low_rate_txt {
+  margin-left: 65px;
+  display: block;
+}
+#gc_payment_selector {
+  margin: 25px 0;
+}
+#gc_payment_selector .radio {
+  margin-bottom: 15px;
+  display: block;
+}
+#gc_payment_selector .card_types {
+  vertical-align: top;
+  margin-left: 10px;
+  position: relative;
+  top: 3px;
+}
+.ie8 #gc_payment_selector .card_types {
+  margin-top: 1px;
+}
+#gc_payment_selector label {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #6c706f;
+}
+#gc_payment_selector .customSelect {
+  background-color: #fff;
+}
+#card_payment .customSelect {
+  background-color: #fff;
+}
+#card_payment .sfTxtLbl {
+  font-size: 0.85em;
+}
+#payment_other #best_western_business_account .bwba_left {
+  width: 55%;
+}
+#payment_other #best_western_business_account .bwba_right {
+  width: 45%;
+}
+#payment_other label {
+  font-size: 0.85em;
+}
+.date_cols {
+  max-width: 190px;
+}
+.date_cols:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+.date_cols > div {
+  float: left;
+  width: 46%;
+  margin-left: 4px;
+}
+.date_cols > div:first-child {
+  margin: 0;
+}
+.gc-upsell {
+  background-color: #003c7f;
+  padding: 15px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.no-upsell .gc-upsell {
+  display: none !important;
+}
+.gc-upsell--img {
+  float: left;
+  width: 100px;
+}
+.gc-upsell--img img {
+  display: block;
+}
+.gc-upsell--options {
+  margin-left: 125px;
+}
+.gc-upsell--options h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+.gc-upsell--options ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.gc-upsell--options li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-top: 1px dashed #fff;
+  padding: 11px 0;
+  color: #fff;
+  float: left;
+  width: 100%;
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.gc-upsell--options li:first-child {
+  border-top: none;
+}
+.gc-upsell--options li:last-child {
+  padding-bottom: 0;
+}
+.gc-upsell--add {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #27aae1;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background 0.25s;
+  -moz-transition: background 0.25s;
+  -o-transition: background 0.25s;
+  transition: background 0.25s;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  float: right;
+  font-size: .85em;
+  margin-left: 10px;
+}
+.gc-upsell--add .fa {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.gc-upsell--add:hover,
+.gc-upsell--add:focus {
+  color: #fff;
+  background: #3db3e4;
+  text-decoration: none;
+}
+.gc-upsell--rooms {
+  color: #fff;
+}
+.gc-upsell--rooms > div {
+  border-bottom: 1px dashed #fff;
+}
+.gc-upsell--rooms > div:first-child {
+  border-top: none;
+}
+.gc-upsell--rooms > div:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.gc-upsell--button {
+  width: 90px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.gc-upsell--button .gc-upsell--add {
+  margin: 0;
+}
+.gated-options {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #fff;
+}
+.gated-options.form_error {
+  border-color: #da4c2a;
+}
+.checkout-section-subtitle {
+  color: #595d5b;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.inline-block {
+  display: inline-block;
+}
+@media (max-width: 1279px) {
+  .checkout-logos {
+    display: none;
+  }
+  .checkout-left {
+    width: 67%;
+  }
+  .checkout-right {
+    width: 33%;
+  }
+  .checkout-right-column {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .checkout-left {
+    width: auto;
+  }
+  .checkout--fields {
+    max-width: none;
+  }
+  .checkout-sign-in {
+    display: none !important;
+  }
+  .tablet-summary {
+    display: block;
+  }
+  .sign-in-prompt-header {
+    font-size: 1.1em;
+  }
+}
+.secure-logos-sm {
+  margin-top: 20px;
+}
+.secure-logos-sm img {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 15px;
+}
+@media (min-width: 1280px) {
+  .checkout-book-now {
+    padding-right: 140px;
+    background-image: url('/svg/lock-grey.svg');
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 130px;
+  }
+  .secure-logos-sm {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .gc-upsell--rooms .gc-upsell--room {
+    width: auto;
+    position: static;
+    margin-bottom: 2px;
+  }
+  .gc-upsell--rooms .gc-upsell--select {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .gc-upsell--rooms .gc-upsell--button {
+    width: auto;
+    position: static;
+  }
+  .gc-upsell--rooms .gc-upsell--button .gc-upsell--add {
+    float: none;
+  }
+}
+/*products*/
+.product-checkout-options__room-in {
+  background: #efefef;
+  padding: 10px 16px;
+}
+.product-checkout-options__room-in .expand-less {
+  display: none;
+}
+.product-checkout-options__room-in[data-prod-amt="contracted"] .product-checkout-options__item:nth-child(2n) ~ div {
+  display: none;
+}
+.product-checkout-options__room-in[data-prod-amt="expanded"] .expand-more {
+  display: none;
+}
+.product-checkout-options__room-in[data-prod-amt="expanded"] .expand-less {
+  display: inline-block;
+}
+.product-checkout-options__room-in[data-prod-amt="hide-all-buttons"] .button {
+  display: none;
+}
+.product-checkout-options__room-in .button {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.product-checkout-options__room-in .checkout-room--room-type:before {
+  display: none;
+}
+.product-checkout-options__flex-wrap {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-checkout-options__item {
+  width: 48.5%;
+  background: #fff;
+}
+.product-checkout-options__item:nth-child(odd) {
+  margin-right: 3%;
+}
+.product-checkout-options__item:nth-child(2n) ~ div {
+  margin-top: 18px;
+}
+.product-checkout-options__item .product-checkout-options__item-header {
+  color: #fff;
+  background: #003c7f;
+  padding: 11px 18px;
+}
+.product-checkout-options__item .product-checkout-options__body {
+  padding: 10px 18px 2px 18px;
+}
+.product-checkout-options__item .product-checkout-options__body .read-less {
+  display: none;
+}
+.product-checkout-options__item .product-checkout-options__body[data-toggle-prod-desc="expanded"] .read-less {
+  display: block;
+}
+.product-checkout-options__item .product-checkout-options__body[data-toggle-prod-desc="expanded"] .read-more {
+  display: none;
+}
+.product-checkout-options__item .product-checkout-options__body[data-toggle-prod-desc="expanded"] .product-checkout-options__item-description + .product-checkout-options__item-description {
+  display: block;
+}
+.product-checkout-options__item .product-checkout-options__body[data-toggle-prod-desc="hide-all-buttons"] .read-more {
+  display: none;
+}
+.product-checkout-options__item .product-checkout-options__item-description {
+  font-size: 14px;
+  line-height: 17px;
+}
+.product-checkout-options__item .product-checkout-options__item-description + .product-checkout-options__item-description {
+  display: none;
+  margin-top: 8px;
+}
+.product-checkout-options__item .product-checkout-options__read {
+  color: #003c7f;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.product-checkout-control-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.product-checkout-control-flex .product-checkout-control {
+  width: 50%;
+  margin-bottom: 15px;
+}
+.product-checkout-control-flex .product-checkout-control .product-checkout-control__title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.pid__in {
+  display: flex;
+  width: 78%;
+  min-width: 116px;
+  text-align: center;
+}
+.pid__in > div {
+  width: 33%;
+}
+.pid__in .pid__value-wrp {
+  width: 55px;
+  line-height: 34px;
+  font-size: 18px;
+  position: relative;
+}
+.pid__in .pid__value-wrp:before,
+.pid__in .pid__value-wrp:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: #efefef;
+  left: 0;
+}
+.pid__in .pid__value-wrp:after {
+  bottom: 0;
+}
+.pid__in .pid__value-wrp:before {
+  top: 0;
+}
+.pid__in .pid__decrement,
+.pid__in .pid__increment {
+  background: #003c7f;
+  color: #fff;
+  height: 34px;
+  max-width: 40px;
+  font-size: 27px;
+  line-height: 34px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.pid__in .pid__increment {
+  font-size: 28px;
+}
+.checkout-expander-title {
+  background: #fff;
+  font-size: 22px;
+  color: #003c7f;
+  font-weight: bold;
+  cursor: default;
+  border: 1px solid #fff;
+}
+.checkout-expander-title.checkout-expander-title--products {
+  padding: 20px 20px 21px 20px;
+}
+.checkout-expander-title.checkout-expander-title--products#inactive {
+  position: relative;
+}
+.checkout-expander-title.checkout-expander-title--products#inactive:after {
+  content: "Change";
+  position: absolute;
+  top: 0;
+  right: 18px;
+  bottom: 0;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 400;
+  height: 20px;
+}
+.checkout-expander-title.checkout-expander-title--checkout {
+  padding: 26px 20px 26px 20px;
+  margin: 35px 0 35px 0;
+  /*&#active {
+            display: none;
+        }*/
+}
+.checkout-expander-title#active {
+  /*~ .single-checkout-expander-section {
+            display: block;
+        }*/
+}
+.checkout-expander-title#inactive {
+  cursor: pointer;
+  background: #f7f7f7;
+  /*~ .single-checkout-expander-section {
+            display: none;
+        }*/
+}
+.checkout-section.product-checkout-options__room:first-child {
+  padding-top: 0;
+}
+button.button.tertiary.make-booking-btn.checkout-continue {
+  width: 100%;
+  max-width: 320px;
+}
+.checkout-info button.button.tertiary.make-booking-btn.checkout-continue {
+  max-width: none;
+}
+.checkout-extras-deletable {
+  font-size: 12px;
+  color: #003c7f;
+}
+.checkout-extras-deletable:first-child {
+  margin-top: 6px;
+}
+.checkout-extras-deletable:last-child {
+  margin-bottom: 10px;
+}
+.checkout-extras-deletable .far,
+.checkout-extras-deletable .fas,
+.checkout-extras-deletable .fa {
+  font-size: 0;
+  padding-right: 7px;
+  cursor: pointer;
+}
+.checkout-extras-deletable .far:before,
+.checkout-extras-deletable .fas:before,
+.checkout-extras-deletable .fa:before {
+  font-size: 11px;
+}
+.checkout-extras-deletable td:first-child {
+  padding-left: 13px;
+}
+.product-extras-expander span {
+  color: #003c7f;
+  text-transform: none;
+  cursor: pointer;
+}
+.product-extras-expander .extras-less {
+  display: none;
+}
+.product-extras-expander[data-summary-prod-toggle="true"] .extras-more {
+  display: none;
+}
+.product-extras-expander[data-summary-prod-toggle="true"] .extras-less {
+  display: inline;
+}
+.product-checkout-options__room:first-child ~ .product-checkout-options__room {
+  margin-top: 15px;
+}
+.show-1024 {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .hide-1024 {
+    display: none!important;
+  }
+  .show-1024 {
+    display: block;
+  }
+  .full-width-1024 {
+    width: 100%!important;
+  }
+  .mb0-1024 {
+    margin-bottom: 0!important;
+  }
+  .flex-1024 {
+    display: flex;
+  }
+  .flex-1024 button.button.tertiary.make-booking-btn.checkout-continue {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    max-width: none;
+  }
+  .flex-fifty-1024 {
+    width: 50%;
+  }
+  .flex-fifty-1024:first-child {
+    margin-right: 3%;
+  }
+  .flex-fifty-1024:nth-child(2n) {
+    margin-left: 3%;
+  }
+  .tablet-summary .sr_rating {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  .tablet-summary .checkout-info--hotel-address {
+    display: inline;
+  }
+  .checkout-section.product-checkout-options__room {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background: #efefef;
+  }
+  .checkout-right {
+    padding: 0;
+    width: 100%;
+  }
+  .checkout-section-subtitle {
+    color: #003c7f;
+    font-size: 18px;
+  }
+  .checkout-info {
+    background: #fff;
+  }
+  .checkout-info .make-booking-btn {
+    margin-right: 0;
+    width: 100%;
+  }
+  .summary-bg-img-left-1024 {
+    padding-left: 100px;
+    background: url(/svg/lock-grey.svg);
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: -21px 3px;
+    min-height: 131px;
+  }
+  .low_rate_txt {
+    font-size: 12px;
+    margin-left: 50px;
+    text-align: right;
+  }
+  .summary-payable-1024 span {
+    color: #003c7f;
+  }
+  .sticky-checkout-column #checkout-dockable {
+    position: static!important;
+  }
+  .checkout-room-summaries {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  .product-checkout-options__room-in {
+    padding-bottom: 0;
+  }
+  .security-info-1024 {
+    float: left;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  div#gc_info_track {
+    text-align: right;
+  }
+}
+/*single booking engine related*/
+.bw-hotel-type__couk {
+  display: none !important;
+}
+/*css load order changed presedence fixes*/
+input[type="checkbox"] {
+  position: absolute;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  width: 0;
+}
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"].checked + label:before {
+  background-position: right 0;
+}
+.bw-range-elem {
+  padding: 0 6%;
+  margin-bottom: 15px;
+  position: relative;
+}
+.bw-range-elem:before,
+.bw-range-elem:after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 12px;
+  transform: rotate(45deg);
+  border: 1px solid #ddd;
+  background: #efefef;
+}
+.bw-range-elem:before {
+  left: 4.5%;
+  border-top: 0;
+  border-right: 0;
+}
+.bw-range-elem:after {
+  right: 4.5%;
+  border-left: 0;
+  border-bottom: 0;
+}
+.bw-range-elem input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.bw-range-elem input[type=range]:focus {
+  outline: none;
+}
+.bw-range-elem input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 13.8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: #efefef;
+  border: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+}
+.bw-range-elem input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 13.8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: #efefef;
+  border: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+}
+.bw-range-elem input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 1px solid #ddd;
+  height: 28px;
+  width: 12px;
+  background: #003c7f;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -8.2px;
+}
+.bw-range-elem input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 1px solid #ddd;
+  height: 28px;
+  width: 12px;
+  background: #003c7f;
+  cursor: pointer;
+  border-radius: 0;
+}
+.points-spending-top {
+  display: flex;
+}
+.points-spending-top > div {
+  margin-bottom: 15px;
+}
+.points-spending-top .points-spending-top__img {
+  background-image: url('/App_Themes/BestWestern/Images/RewardsCard.png');
+  width: 100%;
+  min-width: 123px;
+  max-width: 123px;
+  height: 77px;
+  background-size: cover;
+  margin-right: 15px;
+}
+.points-spending-body {
+  display: flex;
+  margin-bottom: 25px;
+}
+.points-spending-body .points-spending-body__left {
+  width: 35%;
+  max-width: 256px;
+  padding-right: 13px;
+  border-right: 1px solid #efefef;
+}
+.points-spending-body .points-spending-body__right {
+  width: 60%;
+  max-width: 370px;
+  padding-left: 6%;
+}
+.points-spending-body .points-spending-body__right.points-spending-body__right--ef1n {
+  padding-left: 23px;
+  max-width: none;
+}
+.points-spending-body .points-spending-body__right.points-spending-body__right--ef1n .enough-for-1-night {
+  padding: 30px 0;
+}
+.points-spending-body .points-spending-body__right.points-spending-body__right--ef1n .ef1n-row {
+  display: flex;
+}
+.points-spending-body .points-spending-body__right.points-spending-body__right--ef1n .ef1n-row > div {
+  width: 100%;
+}
+.points-spending-body .points-spending-body__right.points-spending-body__right--ef1n .ef1n-row > div:first-child {
+  padding-right: 18px;
+}
+.points-spending-body .points-spending-body__points-available {
+  font-family: 'Croisette', sans-serif;
+  font-size: 40px;
+  color: #003c7f;
+}
+.bw-range-elem__live-values {
+  display: flex;
+}
+.bw-range-elem__live-values > span {
+  width: 50%;
+}
+.bw-range-elem__live-values > span + span {
+  text-align: right;
+}
+.bw-range-elem__remaining-to-pay strong {
+  color: #003c7f;
+}
+.checkout-logo-with-tel {
+  display: flex;
+}
+.checkout-logo-with-tel > span {
+  width: 100%;
+}
+.checkout-logo-with-tel .checkout-logo-tel {
+  display: flex;
+  justify-content: end;
+  padding-top: 19px;
+  min-width: 400px;
+}
+.checkout-logo-with-tel .checkout-logo-tel span {
+  line-height: 1.3;
+}
+.checkout-logo-with-tel .checkout-logo-tel span:first-child {
+  font-size: 12px;
+  padding-right: 12px;
+  font-style: italic;
+}
+.checkout-logo-with-tel .checkout-logo-tel span:first-child a {
+  font-family: "Gotham Medium", sans-serif;
+}
+.checkout-logo-with-tel .checkout-logo-tel span:first-child + span {
+  font-size: 24px;
+}
